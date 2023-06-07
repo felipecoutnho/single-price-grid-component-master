@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+    .container-1{
+        background-color:#fafafa;
+        width: 100%;
+        height:auto;
+    
+    }
+    
+    .container-1 h1, h2{
+        font-weight: 700;
+    }
+    
+    .container-1 h1{
+        font-size: 1.6rem;
+        color: #2BB4B1;
+        padding: 20px 0 20px 23px;
+    }
+    
+    .container-1 h2{
+        font-size: 1.2rem;
+        color: hsl(71, 73%, 54%);
+        line-height: 30px;
+        padding: 0 6px 20px 23px;
+    }
+    
+    .container-1 p{
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: hsl(218, 22%, 67%);
+        line-height: 27px;
+        padding: 0px 15px 35px 23px;
+    } 
+    
+    
+    .container-2{
+        background-color:hsl(179, 62%, 43%);
+        width: 100%;
+        height:auto;
+    
+    
+    }
+    
+    .container-2 h2{
+        font-size: 1.5rem;
+        color: hsl(204, 43%, 93%);
+        padding: 25px 0 20px 23px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+    }
+    
+    
+    
+    .dollar{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: hsla(203, 44%, 93%, 0.555);
+        padding-left: 23px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #price{
+        font-size: 3rem;
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-right: 15px; 
+    }
+    
+    
+    
+    .access{
+        font-size: 1.2rem;
+        color: hsl(204, 43%, 93%);
+        padding-left: 23px;
+        padding-top: 12px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    .sign-up{
+        width: 88%;
+        height: 55px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: hsl(71, 73%, 54%);
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
+        cursor: pointer;
+        
+    }
+    
+    .sign-up:hover{
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
+    }
+    
+    .sign-up:active{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 58px;
+    }
+    
+    
+    .container-3{
+        background-color:#49BEBD;
+        width: 100%;
+        height:auto;
+        padding-top: 25px;
+    
+    }
+    
+    .container-3 h2, ul{
+        font-size: 1.5rem;
+        color: hsl(204, 43%, 93%);
+        padding: 0 0 20px 23px;
+        letter-spacing: 0.5px;
+        font-weight: 600;  
+        list-style: none; 
+        line-height: 25px;
+    }
+    
+    .container-3 a{
+        color: hsla(203, 44%, 93%, 0.747);
+        font-weight: 500;
+        
+    }
+    
+    .footer{
+        width: 100%;
+        height:auto;
+    }
+    
+    .challenge-front{
+        display: none;
+    }
+    
+    .attribution{
+        background-color:#49bebcef;
+        text-align: center;
+        padding-bottom: 5px;
+        color:rgba(95, 158, 160, 0.952);
+        
+    }
+    
+    .attribution p{
+        
+    }
+    
+    .attribution a{
+        font-size: 1.2rem;
+        font-weight: 700;
+        opacity: 0.20;
+        color: cornflowerblue;
+    }
+    
+    .attribution a:hover{
+        opacity: 1;
+    }
+    
+}
