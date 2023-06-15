@@ -1,7 +1,40 @@
 
 
-container-1{
-    width: 100%;
-    background-color: aquamarine;
-    height: 20%;
+@media (min-width:1081px) and (max-width:2690px){
+    .container-1{
+        width: 100%;
+        background-color: aqua;
+        height: 50%;
+        background-color:#fafafa;
+    }
+
+    .container-1 h1, h2{
+        font-weight: 700;
+    }
+    
+    .container-1 h1{
+        font-size: 5rem;
+        color: #2BB4B1;
+        padding: 6rem 0 3rem 11rem;
+    }
+
+    .container-1 h2{
+        font-size: 3.7rem;
+        color: hsl(71, 73%, 54%);
+        line-height: 49px;
+        padding: 0 2rem 2rem 11rem;
+    }
+
+    .container-1 p{
+        font-size: 2rem;
+        font-weight: 500;
+        color: hsl(218, 22%, 67%);
+        line-height: 42px;
+        padding: 0px 0rem 4rem 11rem;
+        text-align: justify;
+        width: 66%;
+    
+    }
+    
+
 }
