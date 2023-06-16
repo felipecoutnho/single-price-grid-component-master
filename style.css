@@ -35,6 +35,141 @@
         width: 66%;
     
     }
+
+    .container-2{
+        width: 50%;
+        float: left;
+        background-color:hsl(179, 62%, 43%);
+    }
+
+    .container-2 h2{
+        font-size: 2.1rem;
+        color: hsl(204, 43%, 93%);
+        padding: 50px 0px 50px 23px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+
+    }
+
+    .dollar{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: hsla(203, 44%, 93%, 0.555);
+        padding-left: 23px;
+        display: flex;
+        align-items: center;
+    }
+
+    #price{
+        font-size: 5rem;
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-right: 20px; 
+    }
+
+    .access{
+        font-size: 1.3rem;
+        color: hsl(204, 43%, 93%);
+        padding-left: 23px;
+        padding-top: 50px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .sign-up{
+        width: 88%;
+        height: 55px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: hsl(71, 73%, 54%);
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 26px;
+        margin-bottom: 33px;
+        border-radius: 5px;
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
+        cursor: pointer;
+        
+    }
+
+
+
+    .sign-up:hover{
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
+    }
+
+    .container-3{
+        width: 50%;
+        float: right;
+        background-color:#49BEBD; 
+        padding-top: 39px;    
+        
+    }
+
+    .container-3 h2{
+        font-size: 1.8rem;
+        color: hsl(204, 43%, 93%);
+        padding: 21px 0 20px 23px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .container-3 a{
+        color: hsla(203, 44%, 93%, 0.747);
+        font-weight: 500;
+    }
+
+    .container-3 li a{
+        font-size: 1.5rem;
+        line-height: 35px;
+        
+    }
+
+    .container-3 ul{
+        padding: 30px 9px 60px 23px;
+        list-style: none;
+        letter-spacing: 0.5px;
+    }
+    
+
+    .footer{
+        width: 100%;
+        height:auto;
+    }
+    
+    .challenge-front{
+        display: none;
+    }
+    
+    .attribution{
+        background-color:#49bebcef;
+        text-align: center;
+        padding-bottom: 22px;
+        color:rgba(95, 158, 160, 0.952);
+        
+    }
+    
+    
+    .attribution a{
+        font-size: 1.2rem;
+        font-weight: 700;
+        opacity: 0.20;
+        color: cornflowerblue;
+    }
+    
+    .attribution a:hover{
+        opacity: 1;
+    }
+    
+
+    .challenge-front{
+        display: none;
+    }
+    
+    
     
 
 }
