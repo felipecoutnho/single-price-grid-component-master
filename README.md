@@ -1,4 +1,8 @@
-<img align="center"  src="./images/frontendmento-logopng.png" alt="frontendmento-logopng">
+<p >
+    <img src="images/frontendmento-logopng.png" width="620px"  alt="logo-frontend-mentor">
+    
+</p>   
+<img src="./images/frontendmento-logopng.png" alt="Frontend-Mentor-Single-Price-Grid-Component">
 
 <img src="./images/Frontend-Mentor-Single-Price-Grid-Component.png" alt="Frontend-Mentor-Single-Price-Grid-Component">
 
