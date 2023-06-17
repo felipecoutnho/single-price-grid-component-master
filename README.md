@@ -3,12 +3,16 @@
 
 </p> 
 
+<br>
+<br>
+<br>
 
  <p align="center">
-    <img src="images/Frontend-Mentor-Single-Price-Grid-Component.png" width="620px"  alt="Frontend-Mentor-Single-Price-Grid-Component">
+    <img src="images/Frontend-Mentor-Single-Price-Grid-Component.png" width="920px"  alt="Frontend-Mentor-Single-Price-Grid-Component">
 </p>
-> 🔎 Single Price Grid-Component page made with HTML & CSS
 
+<br>
+<br>
 ## 🚀 Technologies ##
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
