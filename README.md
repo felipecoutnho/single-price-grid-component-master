@@ -1,5 +1,5 @@
-<p>
-    <img align="center" src="images/frontendmento-logopng.png" width="620px"  alt="logo-frontend-mentor">
+<p align="center">
+    <img  src="images/frontendmento-logopng.png" width="620px"  alt="logo-frontend-mentor">
 
 </p> 
 
