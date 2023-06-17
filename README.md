@@ -4,9 +4,7 @@
 </p> 
 
 
-
-
-
+ <img  src="images/Frontend-Mentor-Single-Price-Grid-Component.png" width="620px"  alt="Frontend-Mentor-Single-Price-Grid-Component">
 > 🔎 Single Price Grid-Component page made with HTML & CSS
 
 ## 🚀 Technologies ##
