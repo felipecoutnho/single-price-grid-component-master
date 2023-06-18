@@ -16,8 +16,8 @@
 
 ## :dart: Features ##
 
-:heavy_check_mark: Estrutura da página com HTML;\
-:heavy_check_mark: Estilizando com CSS;\
+:heavy_check_mark: Estrutura da página com HTML;
+:heavy_check_mark: Estilizando com CSS;
 
 <br>
 <br>
