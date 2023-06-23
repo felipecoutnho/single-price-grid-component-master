@@ -11,39 +11,40 @@
 }
 
 @media (min-width:320px) and (max-width:767px){
-
     .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1.5rem;
         background-color:#fafafa;
-        width: 100%;
-        height:auto;
-    
     }
-    
+
     .container-1 h1, h2{
         font-weight: 700;
+        padding-bottom: 1rem;
     }
-    
+
     .container-1 h1{
         font-size: 1.6rem;
         color: #2BB4B1;
-        padding: 20px 0 20px 23px;
+
     }
-    
+
     .container-1 h2{
         font-size: 1.2rem;
         color: hsl(71, 73%, 54%);
         line-height: 30px;
-        padding: 0 6px 20px 23px;
+
     }
-    
+
     .container-1 p{
         font-size: 1.1rem;
         font-weight: 400;
         color: hsl(218, 22%, 67%);
         line-height: 27px;
-        padding: 0px 15px 35px 23px;
     } 
-    
+
+
+
     
     .container-2{
         background-color:hsl(179, 62%, 43%);
@@ -162,10 +163,6 @@
         
     }
     
-    .attribution p{
-        
-    }
-    
     .attribution a{
         font-size: 1.2rem;
         font-weight: 700;
@@ -175,6 +172,6 @@
     
     .attribution a:hover{
         opacity: 1;
-    }
+    } 
     
 }
