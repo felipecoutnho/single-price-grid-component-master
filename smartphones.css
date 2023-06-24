@@ -11,15 +11,22 @@
 }
 
 @media (min-width:320px) and (max-width:767px){
-    .container-1{
+    main{
         display: flex;
         flex-wrap: wrap;
+
+    }
+
+    .container-1, .container-2, .container-3{
         padding: 1.5rem;
+
+    }
+
+    .container-1{
         background-color:#fafafa;
     }
 
-    .container-1 h1, h2{
-        font-weight: 700;
+    h1, h2{
         padding-bottom: 1rem;
     }
 
@@ -43,67 +50,53 @@
         line-height: 27px;
     } 
 
-
-
-    
+        
     .container-2{
-        background-color:hsl(179, 62%, 43%);
         width: 100%;
-        height:auto;
-    
-    
+        background-color:hsl(179, 62%, 43%);
     }
-    
+
     .container-2 h2{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: hsl(204, 43%, 93%);
-        padding: 25px 0 20px 23px;
         letter-spacing: 0.5px;
         font-weight: 500;
     }
-    
-    
-    
+
+    #price{
+        font-size: 2.5rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-right: 15px;
+
+    }
+
     .dollar{
-        font-size: 1.3rem;
-        font-weight: 400;
-        color: hsla(203, 44%, 93%, 0.555);
-        padding-left: 23px;
         display: flex;
         align-items: center;
-    }
-    
-    #price{
-        font-size: 3rem;
-        color: #FFFFFF;
-        font-weight: 700;
-        margin-right: 15px; 
-    }
-    
-    
-    
-    .access{
         font-size: 1.2rem;
+        font-weight: 400;
+        color: hsla(203, 44%, 93%, 0.555);
+        
+    }
+
+    .access{
+        font-size: 1.1rem;
         color: hsl(204, 43%, 93%);
-        padding-left: 23px;
-        padding-top: 12px;
         letter-spacing: 0.5px;
         font-weight: 400;
-        margin-bottom: 20px;
+        padding-top: .5rem;
+        padding-bottom: 2rem;   
     }
-    
+
     .sign-up{
-        width: 88%;
-        height: 55px;
-        font-size: 1.3rem;
-        font-weight: 600;
+        width: 95%;
+        padding: .8rem;
+        font-size: 1.2rem;
+        font-weight: 500;
         text-align: center;
         color: #FFFFFF;
         background-color: hsl(71, 73%, 54%);
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-top: 20px;
-        margin-bottom: 20px;
         border-radius: 5px;
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
         cursor: pointer;
@@ -113,7 +106,7 @@
     .sign-up:hover{
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
     }
-    
+
     .sign-up:active{
         width: 90%;
         margin-left: 5%;
@@ -121,6 +114,36 @@
         height: 58px;
     }
     
+
+
+
+
+
+    /* 
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+
+    
+
+    
+
     
     .container-3{
         background-color:#49BEBD;
@@ -173,5 +196,5 @@
     .attribution a:hover{
         opacity: 1;
     } 
-    
+     */
 }
