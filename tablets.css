@@ -1,10 +1,49 @@
 
-@media (min-width:767px) and (max-width:819px){
+@media (min-width:767px) and (max-width:1080px){
 
     .container-1{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
         background-color:#fafafa;
     }
+
+    .container-1, .container-2, .container-3{
+        padding-left: 2.5rem;
+        padding-top: 2.5rem;
+
+    }
+
+    .container-1{
+        background-color:#fafafa;
+    }
+
+    .container-1 h1{
+        font-size: 2.5rem;
+        color: #2BB4B1;
+        padding-bottom: 2.5rem;
+
+    }
+
+    .container-1 h2{
+        font-size: 1.8rem;
+        color: hsl(71, 73%, 54%);
+        line-height: 30px;
+        padding-bottom: 1.3rem;
+
+    }
+
+    .container-1 p{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: hsl(218, 22%, 67%);
+        line-height: 35px;
+        padding-bottom: 2rem;
+        
+    } 
+
+
+
+    /*
 
     .container-1 h1, h2{
         font-weight: 700;
@@ -337,5 +376,5 @@
     
     .attribution a:hover{
         opacity: 1;
-    }
+    } */
 }
