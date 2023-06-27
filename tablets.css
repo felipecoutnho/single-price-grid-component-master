@@ -41,54 +41,84 @@
         
     } 
 
+    .container-wrap{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-2{
+        width: 50%;
+        background-color:hsl(179, 62%, 43%);
+    }
+
+    .container-2 h2{
+        font-size: 1.3rem;
+        color: hsl(204, 43%, 93%);
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        padding-bottom: 12px;
+
+    }
+
+    #price{
+        font-size: 2.5rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-right: 15px;
+
+    }
+
+    .dollar{
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: hsla(203, 44%, 93%, 0.555);
+        
+    }
+
+    .access{
+        font-size: 1.1rem;
+        color: hsl(204, 43%, 93%);
+        letter-spacing: 0.5px;
+        font-weight: 300;
+        padding-top: .5rem;
+        padding-bottom: 2rem;   
+    }
+
+    .sign-up{
+        width: 88%;
+        padding: .8rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: hsl(71, 73%, 54%);
+        border-radius: 5px;
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
+        cursor: pointer;
+        
+    }
+
+
+    
 
 
     /*
 
-    .container-1 h1, h2{
-        font-weight: 700;
-    }
-    
-    .container-1 h1{
-        font-size: 3.5rem;
-        color: #2BB4B1;
-        padding: 60px 0 40px 30px;
-    }
-    
-    .container-1 h2{
-        font-size: 2.5rem;
-        color: hsl(71, 73%, 54%);
-        line-height: 50px;
-        padding: 0 6px 35px 30px;
-    }
 
-    .container-1 p{
-        font-size: 1.8rem;
-        font-weight: 500;
-        color: hsl(218, 22%, 67%);
-        line-height: 42px;
-        padding: 0px 15px 35px 23px;
-        text-align: justify;
-        width: 95%;
-    
-    }
+
+
 
     
     
     .container-2{
         width: 50%;
         float: left;
-        background-color:hsl(179, 62%, 43%);
-    }
-
-    .container-2 h2{
-        font-size: 2.1rem;
-        color: hsl(204, 43%, 93%);
-        padding: 50px 0px 50px 23px;
-        letter-spacing: 0.5px;
-        font-weight: 500;
 
     }
+
+
 
     .dollar{
         font-size: 1.3rem;
