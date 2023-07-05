@@ -10,15 +10,14 @@
     font-size: 1rem;
 }
 
-@media (min-width:320px) and (max-width:767px){
-    main{
-        display: flex;
-        flex-wrap: wrap;
+@media (min-width:320px) and (max-width:766px){
 
-    }
+
 
     .container-1, .container-2, .container-3{
         padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
 
     }
 
