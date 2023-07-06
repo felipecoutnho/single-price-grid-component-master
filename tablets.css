@@ -1,15 +1,16 @@
 
 @media (min-width:767px) and (max-width:1080px){
 
-    .container-1{
+    main{
         display: flex;
         flex-direction: column;
-        background-color:#fafafa;
+
     }
 
     .container-1, .container-2, .container-3{
         padding-left: 2.5rem;
         padding-top: 2.5rem;
+
 
     }
 
@@ -18,41 +19,40 @@
     }
 
     .container-1 h1{
-        font-size: 2.5rem;
+        font-size: 3.1rem;
         color: #2BB4B1;
         padding-bottom: 2.5rem;
 
     }
 
     .container-1 h2{
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         color: hsl(71, 73%, 54%);
-        line-height: 30px;
+        line-height: 45px;
         padding-bottom: 1.3rem;
-
+        padding-right: 10rem;
     }
+    
 
     .container-1 p{
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight: 400;
         color: hsl(218, 22%, 67%);
-        line-height: 35px;
+        line-height: 49px;
         padding-bottom: 2rem;
+        text-align: justify;
+        padding-right: 6rem;
         
     } 
 
-    .container-wrap{
-        display: flex;
-        flex-direction: row;
-    }
+
 
     .container-2{
-        width: 50%;
         background-color:hsl(179, 62%, 43%);
     }
 
     .container-2 h2{
-        font-size: 1.3rem;
+        font-size: 2.5rem;
         color: hsl(204, 43%, 93%);
         letter-spacing: 0.5px;
         font-weight: 500;
@@ -61,7 +61,7 @@
     }
 
     #price{
-        font-size: 2.5rem;
+        font-size: 5rem;
         color: #FFFFFF;
         font-weight: 600;
         margin-right: 15px;
@@ -71,14 +71,14 @@
     .dollar{
         display: flex;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 400;
         color: hsla(203, 44%, 93%, 0.555);
         
     }
 
     .access{
-        font-size: 1.1rem;
+        font-size: 2rem;
         color: hsl(204, 43%, 93%);
         letter-spacing: 0.5px;
         font-weight: 300;
@@ -87,9 +87,9 @@
     }
 
     .sign-up{
-        width: 88%;
-        padding: .8rem;
-        font-size: 1.2rem;
+        width: 95%;
+        padding: 1.2rem;
+        font-size: 1.8rem;
         font-weight: 500;
         text-align: center;
         color: #FFFFFF;
@@ -97,8 +97,21 @@
         border-radius: 5px;
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
         cursor: pointer;
+        margin-bottom: 2rem;   
         
     }
+
+    .sign-up:hover{
+        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
+    }
+
+    .sign-up:active{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 58px;
+    }
+    
 
 
     
