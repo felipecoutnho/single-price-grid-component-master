@@ -1,17 +1,13 @@
 
 @media (min-width:767px) and (max-width:1080px){
-
     main{
         display: flex;
         flex-direction: column;
-
     }
 
     .container-1, .container-2, .container-3{
         padding-left: 2.5rem;
         padding-top: 2.5rem;
-
-
     }
 
     .container-1{
@@ -22,7 +18,6 @@
         font-size: 3.1rem;
         color: #2BB4B1;
         padding-bottom: 2.5rem;
-
     }
 
     .container-1 h2{
@@ -33,7 +28,6 @@
         padding-right: 10rem;
     }
     
-
     .container-1 p{
         font-size: 2rem;
         font-weight: 400;
@@ -42,7 +36,6 @@
         padding-bottom: 2rem;
         text-align: justify;
         padding-right: 6rem;
-        
     } 
 
 
@@ -57,7 +50,6 @@
         letter-spacing: 0.5px;
         font-weight: 500;
         padding-bottom: 12px;
-
     }
 
     #price{
@@ -65,7 +57,6 @@
         color: #FFFFFF;
         font-weight: 600;
         margin-right: 15px;
-
     }
 
     .dollar{
@@ -74,7 +65,6 @@
         font-size: 1.5rem;
         font-weight: 400;
         color: hsla(203, 44%, 93%, 0.555);
-        
     }
 
     .access{
@@ -98,7 +88,6 @@
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
         cursor: pointer;
         margin-bottom: 2rem;   
-        
     }
 
     .sign-up:hover{
@@ -111,313 +100,61 @@
         margin-right: 5%;
         height: 58px;
     }
-    
-
-
-    
-
-
-    /*
-
-
-
-
-
-    
-    
-    .container-2{
-        width: 50%;
-        float: left;
-
-    }
-
-
-
-    .dollar{
-        font-size: 1.3rem;
-        font-weight: 400;
-        color: hsla(203, 44%, 93%, 0.555);
-        padding-left: 23px;
-        display: flex;
-        align-items: center;
-    }
-
-    #price{
-        font-size: 5rem;
-        color: #FFFFFF;
-        font-weight: 700;
-        margin-right: 20px; 
-    }
-
-    .access{
-        font-size: 1.3rem;
-        color: hsl(204, 43%, 93%);
-        padding-left: 23px;
-        padding-top: 50px;
-        letter-spacing: 0.5px;
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-
-    .sign-up{
-        width: 88%;
-        height: 55px;
-        font-size: 1.3rem;
-        font-weight: 600;
-        text-align: center;
-        color: #FFFFFF;
-        background-color: hsl(71, 73%, 54%);
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-top: 26px;
-        margin-bottom: 33px;
-        border-radius: 5px;
-        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
-        cursor: pointer;
-        
-    }
-
-
-
-    .sign-up:hover{
-        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
-    }
-    
-    
 
     .container-3{
-        width: 50%;
-        float: right;
-        background-color:#49BEBD; 
-        padding-top: 39px;    
-        
+        width: 100%;
+        background-color:#49BEBD;
+    }
+
+    .container-3  ul{
+        list-style: none; 
     }
 
     .container-3 h2{
-        font-size: 1.8rem;
         color: hsl(204, 43%, 93%);
-        padding: 21px 0 20px 23px;
-        font-weight: 600;
-        line-height: 25px;
+        font-weight: 600;  
+        font-size: 1.8rem;
     }
 
     .container-3 a{
         color: hsla(203, 44%, 93%, 0.747);
-        font-weight: 500;
-    }
-
-    .container-3 li a{
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        line-height: 35px; 
         font-size: 1.5rem;
-        line-height: 35px;
-        
     }
 
     .container-3 ul{
-        padding: 30px 9px 60px 23px;
-        list-style: none;
-        letter-spacing: 0.5px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
-    
 
-    .footer{
-        width: 100%;
-        height:auto;
-    }
-    
     .challenge-front{
         display: none;
     }
-    
-    .attribution{
-        background-color:#49bebcef;
-        text-align: center;
-        padding-bottom: 22px;
-        color:rgba(95, 158, 160, 0.952);
-        
-    }
-    
-    .attribution p{
-        
-    }
-    
-    .attribution a{
-        font-size: 1.2rem;
-        font-weight: 700;
-        opacity: 0.20;
-        color: cornflowerblue;
-    }
-    
-    .attribution a:hover{
-        opacity: 1;
-    }
-    
 
-}
-
-@media (min-width:820px) and (max-width:1080px){
-    .container-1{
-        width: 100%;
-        background-color:#fafafa;
-    }
-
-    .container-1 h1, h2{
-        font-weight: 700;
-    }
-    
-    .container-1 h1{
-        font-size: 3.7rem;
-        color: #2BB4B1;
-        padding: 70px 0 50px 30px;
-    }
-    
-    .container-1 h2{
-        font-size: 2.7rem;
-        color: hsl(71, 73%, 54%);
-        line-height: 50px;
-        padding: 0 6px 48px 30px;
-    }
-
-    .container-1 p{
-        font-size: 2.2rem;
-        font-weight: 500;
-        color: hsl(218, 22%, 67%);
-        line-height: 42px;
-        padding: 0px 15px 45px 23px;
-        text-align: justify;
-        width: 89%;
-    
-    }
-
-    
-    
-    .container-2{
-        width: 50%;
-        float: left;
-        background-color:hsl(179, 62%, 43%);
-    }
-
-    .container-2 h2{
-        font-size: 2.2rem;
-        color: hsl(204, 43%, 93%);
-        padding: 50px 0px 60px 23px;
-        letter-spacing: 0.5px;
-        font-weight: 500;
-    
-
-    }
-
-    #price{
-        font-size: 6rem;
-        color: #FFFFFF;
-        font-weight: 700;
-        margin-right: 27px;
-    }
-
-    .dollar{
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: hsla(203, 44%, 93%, 0.555);
-    padding-left: 23px;
-    display: flex;
-    align-items: center;
-
-    }
-
-
-    .access{
-        font-size: 1.4rem;
-        color: hsl(204, 43%, 93%);
-        padding-left: 23px;
-        padding-top: 60px;
-        letter-spacing: 0.7px;
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-
-    .sign-up{
-        width: 88%;
-        height: 55px;
-        font-size: 1.3rem;
-        font-weight: 600;
-        text-align: center;
-        color: #FFFFFF;
-        background-color: hsl(71, 73%, 54%);
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-top: 26px;
-        margin-bottom: 33px;
-        border-radius: 5px;
-        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
-        cursor: pointer;
-        
-    }
-
-    .sign-up:hover{
-        box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
-    }
-    
-
-
-    .container-3{
-        width: 50%;
-        float: right;
-        background-color:#49BEBD; 
-        padding-top: 39px;    
-        
-    }
-
-    .container-3 h2{
-        font-size: 1.8rem;
-        color: hsl(204, 43%, 93%);
-        padding: 21px 0 20px 23px;
-        font-weight: 600;
-        line-height: 25px;
-    }
-
-    .container-3 a{
-        color: hsla(203, 44%, 93%, 0.747);
-        font-weight: 500;
-    }
-
-    .container-3 li a{
-        font-size: 1.5rem;
-        line-height: 35px;
-        
-    }
-
-    .container-3 ul{
-        padding: 60px 9px 74px 23px;
-        list-style: none;
-        letter-spacing: 0.5px;
-    }
-    
-    
-    .attribution{
-        width: 100%;
-        background-color: #49bebcef;
-        text-align: center;
-        padding-bottom: 22px;
-        color: rgba(95, 158, 160, 0.952);
+    footer{
         display: flex;
         justify-content: center;
-        padding-bottom: 17px;
-        padding-top: 17px;
+        background-color:#49BEBD;
     }
-        
-    
-    
-    .attribution p{
-        
-    }
-    
-    .attribution a{
+
+    .attribution{
+        padding: .5rem;
         font-size: 1.2rem;
+        opacity: 0.50;
+    }
+
+    .attribution a{
         font-weight: 700;
-        opacity: 0.20;
+        letter-spacing: .5px;
+        margin-left: 5px;
+        opacity: 0.30;
+        font-size: 1.2rem;
         color: cornflowerblue;
     }
-    
+
     .attribution a:hover{
         opacity: 1;
-    } */
+    } 
 }

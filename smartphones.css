@@ -12,20 +12,14 @@
 
 
 @media (min-width:320px) and (max-width:766px){
-
-
-
-
     .container-1, .container-2, .container-3{
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
-
     }
 
     .container-1{
         background-color:#fafafa;
-
     }
 
     h1, h2{
@@ -35,15 +29,12 @@
     .container-1 h1{
         font-size: 1.6rem;
         color: #2BB4B1;
-
-
     }
 
     .container-1 h2{
         font-size: 1.2rem;
         color: hsl(71, 73%, 54%);
         line-height: 30px;
-
     }
 
     .container-1 p{
@@ -53,7 +44,6 @@
         line-height: 27px;
     } 
 
-        
     .container-2{
         width: 100%;
         background-color:hsl(179, 62%, 43%);
@@ -71,7 +61,6 @@
         color: #FFFFFF;
         font-weight: 600;
         margin-right: 15px;
-
     }
 
     .dollar{
@@ -80,7 +69,6 @@
         font-size: 1.2rem;
         font-weight: 400;
         color: hsla(203, 44%, 93%, 0.555);
-        
     }
 
     .access{
@@ -103,7 +91,6 @@
         border-radius: 5px;
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
         cursor: pointer;
-        
     }
     
     .sign-up:hover{
@@ -121,7 +108,6 @@
     .container-3{
         width: 100%;
         background-color:#49BEBD;
-
     }
 
     .container-3  ul{
@@ -165,7 +151,6 @@
         opacity: 0.30;
         font-size: 1.2rem;
         color: cornflowerblue;
-
     }
 
     .attribution a:hover{
