@@ -3,15 +3,13 @@
 @media (min-width:1081px) and (max-width:2690px){
     .container-1{
         width: 100%;
-        background-color: aqua;
-        height: 50%;
         background-color:#fafafa;
     }
 
     .container-1 h1, h2{
         font-weight: 700;
     }
-    
+
     .container-1 h1{
         font-size: 5rem;
         color: #2BB4B1;
@@ -33,12 +31,14 @@
         padding: 0px 0rem 4rem 11rem;
         text-align: justify;
         width: 66%;
-    
+    }
+
+    .container-wrap{
+        display: flex;
     }
 
     .container-2{
         width: 50%;
-        float: left;
         background-color:hsl(179, 62%, 43%);
     }
 
@@ -48,7 +48,6 @@
         padding: 50px 0px 50px 23px;
         letter-spacing: 0.5px;
         font-weight: 500;
-
     }
 
     .dollar{
@@ -92,10 +91,7 @@
         border-radius: 5px;
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.068);
         cursor: pointer;
-        
     }
-
-
 
     .sign-up:hover{
         box-shadow: 2px 12px 3px rgba(0, 0, 0, 0.103);
@@ -103,10 +99,8 @@
 
     .container-3{
         width: 50%;
-        float: right;
         background-color:#49BEBD; 
         padding-top: 39px;    
-        
     }
 
     .container-3 h2{
@@ -133,26 +127,21 @@
         list-style: none;
         letter-spacing: 0.5px;
     }
-    
 
-    .footer{
-        width: 100%;
-        height:auto;
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#49bebcef;
+        color:rgba(95, 158, 160, 0.952);
+        padding-bottom: 0.3rem;
+        padding-top: 0.2rem;
     }
-    
+
     .challenge-front{
         display: none;
     }
-    
-    .attribution{
-        background-color:#49bebcef;
-        text-align: center;
-        padding-bottom: 22px;
-        color:rgba(95, 158, 160, 0.952);
-        
-    }
-    
-    
+
     .attribution a{
         font-size: 1.2rem;
         font-weight: 700;
@@ -164,12 +153,7 @@
         opacity: 1;
     }
     
-
     .challenge-front{
         display: none;
-    }
-    
-    
-    
-
+    }   
 }
